@@ -1,0 +1,57 @@
+.container-flex, .menu-header, .cabecalho-display{
+    display: flex;
+    align-items: center;
+
+}
+
+/*header*/
+.cabecalho-display{
+    justify-content: space-between;
+    padding: 1.75em 5em;
+    gap: 12.15em;
+}
+
+/*Categorias*/
+.menu-header{
+    list-style: none;
+    gap: 2em;
+    margin-right: auto;
+    padding: 0.37rem;
+}
+
+.menu-header__link{
+    color: var(--text-header-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/*Logo*/
+.container-flex{
+    gap: 0.6em;
+    padding: 0.38em 2em;
+}
+
+.logo__title{
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+/*botoes*/
+
+.botao-login-link, .botao-cadastrar{
+    padding: 0.62em 0.81em;
+    font-weight: 500;
+}
+
+.botao-login-link{
+    color: var(--text-header-color);
+
+}
+
+.botao-cadastrar{
+    color: var(--white);
+    background: var(--red);    
+    border-radius: 0.5em;   
+}
+

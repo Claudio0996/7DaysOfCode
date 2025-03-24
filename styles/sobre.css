@@ -1,0 +1,28 @@
+.sobre{
+    padding: 6em 5em;
+    text-align: center;
+    font-family: var(--inter);
+}
+
+.sobre__content{
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.sobre__titulo{
+    margin: 24px 0;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(--title-blue);
+}
+
+.sobre__paragrafo{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-header-color);
+    padding: 0 15.25em;
+}
