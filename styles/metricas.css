@@ -1,0 +1,38 @@
+.metricas{
+    margin: 0 5em;
+    padding-bottom: 6em;
+    font-family: var(--inter);
+}
+
+.metricas__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    gap: 32px;
+}
+
+
+
+
+.list__item-number{
+    font-size: 3.75rem;
+    color: var(--red);
+    line-height: 72px;
+    font-weight: 600;
+}
+
+.list__item-title{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--title-blue);
+    padding: 1rem 0;
+}
+
+.list__item-content{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--text-header-color);
+    padding-right: 3rem;
+}
