@@ -1,0 +1,44 @@
+.depoimentos{
+    margin: 0 5rem;
+    text-align: center;
+    font-family: (--inter);
+}
+
+.depoimentos__container{
+    margin: 6rem 6rem;
+    background-color: var(--background-depoimentos);
+    border-radius: 16px;
+    padding: 6rem;
+}
+
+.depoimentos-msg{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--red);
+}
+
+.depoimentos-titulo{
+    color: var(--title-blue);
+    font-size: 2.25rem;
+    line-height: 44px;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.depoimentos-colaborador{
+    margin-top: 2rem;
+}
+
+.colaborador-nome{
+    margin-top: 1rem;
+    color: var(--title-blue);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.colaborador-cargo{
+    color: var(--text-header-color);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+}

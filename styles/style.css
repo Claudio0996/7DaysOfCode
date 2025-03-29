@@ -3,14 +3,22 @@
 @import url("./cabecalho.css");
 @import url("./sobre.css");
 @import url("./metricas.css");
+@import url("./vagas-banner.css");
+@import url("./depoimentos.css");
+@import url("./rodape.css");
 
 :root{
     --text-header-color: #667085;
     --red: #8E2424;
+    --background-depoimentos: #C3191908;
     --white: #fff;
     --inter: "Inter", sans-serif;
     --font-color: #3A404E;
     --title-blue: #101828;
+    --gray-link: #8E24240D;
+    --card-border: #EAECF0;
+    --footer-background: #F9FAFB;
+    --border-input: #D0D5DD;
 }
 
 /*Reset Css*/
